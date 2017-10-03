@@ -89,10 +89,12 @@ ul {
 
 .nav-pills > li > a {
 	border-radius: 8px;
+	background-color: #fff;
+	border: 1px solid #ddd;
 }
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
 	  color: #fffadd;
 	  background-color: #b8237a;
 }
