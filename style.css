@@ -33,7 +33,7 @@ h1 {
 }
 
 h1 span {
-	font-size: 50%;
+	font-size: 40%;
 	letter-spacing: -0.05em;
 }
 
@@ -89,12 +89,11 @@ ul {
 
 .nav-pills > li > a {
 	border-radius: 8px;
-	background-color: #fff;
-	border: 1px solid #ddd;
+	border: 1px solid #ddabb4;
 }
-.nav-pills > .active > a,
-.nav-pills > .active > a:hover,
-.nav-pills > .active > a:focus {
+.nav .nav-pills > .active > a,
+.nav .nav-pills > .active > a:hover,
+.nav .nav-pills > .active > a:focus {
 	  color: #fffadd;
 	  background-color: #b8237a;
 }
