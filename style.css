@@ -9,6 +9,11 @@ body {
 	font: normal 12px/18px Verdana, sans-serif;
 }
 
+a href {
+	color: #ff9f7d;
+	font:  15px/20px Verdana, sans-serif;
+}
+
 #content {
 	width: 400px;
 	margin: 40px auto 0 auto;
@@ -21,6 +26,7 @@ body {
 
 h1 {
 	margin: 30px 0 15px 0;
+	color: #a19dff;
 	font-size: 50px;
 	font-weight: bold;
 	font-family: Arial;
