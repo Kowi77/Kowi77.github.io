@@ -43,7 +43,7 @@
                         <br>
                         <h3 href="message">Оставить сообщение</h3>
                         <br>
-                        <p src="content/ownerInfo" content="text"></p>
+                        <div id="ownerInfo"></div>
                     </div>
                 </div>
                 <div class="row">
@@ -68,6 +68,7 @@
         <script type="text/javascript">
             $(document).ready(function() {
                 $("a.fancyimage").fancybox();
+                $("#ownerInfo").load("content/ownerInfo");
             });
         </script>
         <!-- подключение CSS файла Fancybox -->
