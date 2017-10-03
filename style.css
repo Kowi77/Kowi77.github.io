@@ -95,4 +95,8 @@ ul {
 .nav-pills > li.active > a:focus {
 	  color: #fffadd;
 	  background-color: #b8237a;
-  }
+}
+.glyphicon {
+	color: blue;
+	size: 25px;
+}
